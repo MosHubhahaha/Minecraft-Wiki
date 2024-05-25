@@ -1,0 +1,111 @@
+/* Navbar */
+body{
+    background-color: rgb(189, 189, 189);
+}
+
+
+.home{
+    color: white;
+}
+
+.fcolor{
+    color: white;
+}
+
+
+/* หัวเรื่อง */
+.mainheader{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 255, 54);
+    height: 280px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-content{
+    text-align: center;
+}
+
+
+/* Content */
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-top:20px;
+}
+
+.item{
+    border:1px solid black;
+    box-sizing: border-box;
+    width: 33.33%;
+    height:auto;
+    margin:20px;
+    height:300px;
+    position: relative;
+    border-radius:20px;
+}
+
+h1{
+    text-decoration: none;
+}
+
+.heading{
+    align-self: center;
+    justify-self: center;
+}
+
+.box1{
+    background-color: blue;
+    position: relative;
+    height:100%;
+    box-sizing: border-box;
+    background-image: url('Mob.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    height:100%;
+    box-sizing: border-box;
+    background-image: url('Swordlogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+}
+.box3{
+    background-color: blue;
+    position: relative;
+    height:100%;
+    box-sizing: border-box;
+    background-image: url('pyramid.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+}
+
+.b1:hover{
+    opacity: 0.7;
+    border:2px solid rgba(255, 0, 0,0.4);
+}
+.b2:hover{
+    opacity: 0.7;
+    border:2px solid rgba(255, 0, 0,0.4);
+}
+.b3:hover{
+    opacity: 0.7;
+    border:2px solid rgba(255, 0, 0,0.4);
+}
